@@ -1,0 +1,89 @@
+/* колір основного тексту #757575 */
+
+/* колір вторинного тексту #212121 */
+
+/* колір акцент #2196F3 */
+
+/* білий колір #FFFFFF */
+
+/* фон секції "наша команда" #F5F4FA */
+
+/* колір мейлу і телефону в футері має інший колір!!! */
+
+
+body {
+    color: #757575 ;
+    background-color: #FFFFFF ;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section-title {
+    color: #212121;
+}
+
+/* Header */
+
+.logo {
+    color: #000000 ;
+}
+
+.logo:hover, 
+.logo:focus {
+    color: #2196F3;
+}
+.logo-accent {
+    color: #2196F3 ;
+}
+
+.site-nav .link {
+    color: #212121;
+}
+
+.header-contact .link {
+    color: #757575;
+}
+
+.header-page .link:hover, 
+.header-page .link:focus {
+    color: #2196F3;
+}
+
+/* банер+кнопка (hero) */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.hero-button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* команда */
+.ourteam {
+    background-color: #F5F4FA;
+}
+
+/* футер */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer .logo {
+    color: #FFFFFF;
+}
+
+.footer .link {
+    color: rgba(255, 255, 255, 60%);
+}
+
+.footer-address {
+    color: #FFFFFF;
+}
