@@ -6,14 +6,20 @@
 
 /* білий колір #FFFFFF */
 
-/* фон секції "наша команда" #F5F4FA */
+/* вторинний білий колір  #F5F4FA */
 
 /* колір мейлу і телефону в футері має інший колір!!! */
 
-
+:root {
+    --main-text-color:#757575;
+    --secondly-text-color:#212121;
+    --accent-color:#2196F3;
+    --secondary-white-color: #F5F4FA;
+    --main-withe-color: #FFFFFF;
+}
 body {
-    color: #757575 ;
-    background-color: #FFFFFF ;
+    color:var(--main-text-color);
+    background-color: var(--main-withe-color);
 }
 
 ul {
@@ -21,8 +27,9 @@ ul {
 }
 
 .section-title {
-    color: #212121;
+    color:var(--secondly-text-color);
 }
+/* --------CSS для головної сторінки (index.html)-------- */
 
 /* Header */
 
@@ -30,25 +37,28 @@ ul {
     color: #000000 ;
 }
 
-.logo:hover, 
 .logo:focus {
-    color: #2196F3;
+    color:var(--accent-color);
 }
 .logo-accent {
-    color: #2196F3 ;
+    color:var(--accent-color);
 }
 
 .site-nav .link {
-    color: #212121;
+    color:var(--secondly-text-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
 }
 
+
 .header-contact .link {
-    color: #757575;
+    color: var(--main-text-color);
 }
 
 .header-page .link:hover, 
 .header-page .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* банер+кнопка (hero) */
@@ -57,17 +67,17 @@ ul {
 }
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--main-withe-color);
 }
 
-.hero-button {
-    color: #FFFFFF;
-    background-color: #2196F3;
+.button {
+    color: var(--main-withe-color);
+    background-color:var(--accent-color);
 }
 
 /* команда */
 .ourteam {
-    background-color: #F5F4FA;
+    background-color:var(--secondary-white-color);
 }
 
 /* футер */
@@ -77,7 +87,7 @@ ul {
 }
 
 .footer .logo {
-    color: #FFFFFF;
+    color: var(--main-withe-color);
 }
 
 .footer .link {
@@ -85,5 +95,22 @@ ul {
 }
 
 .footer-address {
-    color: #FFFFFF;
+    color: var(--main-withe-color)F;
 }
+
+/* --------CSS для портфоліо(portfolio.html)-------- */
+
+/* кнопки фільтру "наші роботи" */
+
+.button.secondary {
+    color:var(--secondly-text-color);
+    background-color: var(--secondary-white-color);
+}
+
+.button.secondary:hover, 
+.button.secondary:focus {
+color: var(--main-withe-color);
+    background-color: var(--accent-color);
+}
+
+
