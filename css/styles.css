@@ -11,8 +11,6 @@
 /* вторинний бекграунд колір #2F303A */
 
 
-/* колір мейлу і телефону в футері має інший колір!!! */
-
 :root {
     --main-text-color:#757575;
     --secondly-text-color:#212121;
@@ -87,7 +85,7 @@ ul {
     color: var(--accent-color);
 }
 
-/* банер+кнопка (hero) */
+/* banner+button */
 .hero {
     background-color:var(--second-bg-color);
 }
@@ -113,7 +111,7 @@ ul {
         cursor: pointer;
 }
 
-/* переваги */
+/* Advantages */
 
 .advantages .advantages-title {
     color: var(--secondly-text-color);
@@ -128,7 +126,7 @@ ul {
         line-height: 1.71;
 }
 
-/* команда */
+/* Ourteam */
 .ourteam {
     background-color:var(--secondary-white-color);
 }
@@ -147,7 +145,7 @@ ul {
         text-align: center;
 }
 
-/* футер */
+/* Footer */
 
 .footer {
     background-color:var(--second-bg-color);
@@ -224,3 +222,4 @@ color: var(--main-withe-color);
 .work-link {
     text-decoration: none;
 }
+
